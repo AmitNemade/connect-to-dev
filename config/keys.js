@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb://localhost/devconnector1',
+  mongoURI: 'mongodb+srv://tanuj:tanuj@cluster0.jxctc.mongodb.net/devConnector?retryWrites=true&w=majority',
   secretOrKey: 'secret'
 };

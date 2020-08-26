@@ -4,7 +4,8 @@
   "description": "social connector for developer",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "client-install": "cd client && npm install",
     "server": "node server.js",
     "client": "npm start --prefix client"    
